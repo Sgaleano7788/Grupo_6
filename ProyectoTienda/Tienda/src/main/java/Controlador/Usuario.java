@@ -28,9 +28,6 @@ public class Usuario extends HttpServlet {
     }
 
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        PrintWriter salida=response.getWriter();
 		
